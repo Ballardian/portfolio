@@ -1,1 +1,37 @@
-portfolio.html.erb
+<div class="container">
+  <div class="product">
+    <%= image_tag "taj.jpg", class:"product-image hidden-xs" %>
+    <div class='product-body'>
+      <h3 class="white">Bhavana Experiences</h3>
+      <p>A web app for showcasing and organising tours around India.</p>
+      <br>
+      <br>
+      <a href="https://bhavanaexperiencestours.herokuapp.com/" class="link">find out more</a>
+    </div>
+    </ul>
+  </div>
+  <div class="product">
+    <%= image_tag "karayoume.jpg", class:"product-image hidden-xs" %>
+    <div class='product-body'>
+      <h3 class="white">Karayoume</h3>
+      <p>A web app designed to put the fun back into language learning with quick fire karaoke. Utilizes OpenTok JS video chat API.</p>
+      <br>
+      <br>
+      <a href="https://www.karayoume.com/" class="link">find out more</a>
+    </div>
+    </ul>
+  </div>
+    <div class="product">
+    <%= image_tag "popup-background.png", class:"product-image hidden-xs" %>
+    <div class='product-body'>
+      <h3 class="white">Jolly Pops</h3>
+      <p>A web app in Air BnB format, used to rent pop up spaces.</p>
+      <br>
+      <br>
+      <a href="https://jollypops.herokuapp.com/" class="link">find out more</a>
+    </div>
+    </ul>
+  </div>
+  <h4 class="text-center white" style="margin: 50px">More projects coming soon...</h4>
+</div>
+<%= render 'shared/footer'%>
