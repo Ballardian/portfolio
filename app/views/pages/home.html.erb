@@ -1,2 +1,25 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="main-banner-home" class="darken-overlay">
+  <div class="darken-overlay">
+    <%= render 'shared/navbar' %>
+    <div class="main-banner-container">
+      <div class="wrapper">
+        <h1><span>Web Developer.</span></h1>
+        <br>
+        <br>
+        <br>
+        <div class="navbar">
+          <div class="center">
+            <ul>
+              <li class="navbar-wagon-item">
+                <%= link_to "Resume", resume_path, class: "nav-link" %>
+              </li>
+              <li class="navbar-wagon-item">
+                <%= link_to "Contact", contact_path, class: "nav-link" %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
