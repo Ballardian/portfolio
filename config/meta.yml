@@ -1,0 +1,5 @@
+meta_product_name: "George Ballard - Web Developer"
+meta_title: "George Ballard - Web Developer"
+meta_description: "A healthy dose of self deprecation and code."
+meta_image: "profpic.jpg" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
